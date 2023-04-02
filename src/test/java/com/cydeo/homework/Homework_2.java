@@ -14,7 +14,7 @@ import static io.restassured.RestAssured.given;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-public class Tasks_4_5_6 extends Hr_TestBase {
+public class Homework_2 extends Hr_TestBase {
 
     //ORDS API DOCUMENT
     //—> https://documenter.getpostman.com/view/25449093/2s8ZDYYNBz

@@ -10,7 +10,7 @@ import org.junit.jupiter.api.Test;
 import static io.restassured.RestAssured.given;
 import static org.junit.jupiter.api.Assertions.*;
 
-public class Tasks_1_2_3 extends Hr_TestBase {
+public class Homework_1 extends Hr_TestBase {
 
     @DisplayName("GET- /countries/US")
     @Test
