@@ -101,11 +101,14 @@ public class P01_CydeoTrainingDeserializationPOJO extends Cydeo_TestBase {
 
         com.cydeo.pojo.ready.Student student = jsonPath.getObject("students[0]", com.cydeo.pojo.ready.Student.class);
 
+
         assertEquals("Mark", student.getFirstName());
         System.out.println("FirstName = " + student.getFirstName());
         System.out.println("LastName = " + student.getLastName());
         System.out.println("Company = " + student.getCompany());
         System.out.println("Address = " + student.getCompany().getAddress());
+
+
 
     }
 }

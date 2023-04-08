@@ -1,4 +1,4 @@
-package com.cydeo.day02_Get;
+package com.cydeo.day02_Get_Request_Nevigation;
 
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
