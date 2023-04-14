@@ -1,4 +1,4 @@
-package com.cydeo.day08;
+package com.cydeo.day08_Auth;
 
 import com.cydeo.utilities.SpartanAuth_TestBase;
 import io.restassured.http.ContentType;
@@ -62,6 +62,7 @@ public class P01_SpartanAuthTest extends SpartanAuth_TestBase {
     }
 }
 
+//TODO: Based Control Test Homework
 /**
  *  HOMEWORKS
  *

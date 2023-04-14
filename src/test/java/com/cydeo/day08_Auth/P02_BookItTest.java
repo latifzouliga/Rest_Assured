@@ -1,14 +1,10 @@
-package com.cydeo.day08;
+package com.cydeo.day08_Auth;
 
 import com.cydeo.utilities.BookItUtils;
 import com.cydeo.utilities.BookIt_TestBase;
 import io.restassured.http.ContentType;
-import io.restassured.path.json.JsonPath;
-import io.restassured.response.Response;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
-
-import java.util.*;
 
 import static io.restassured.RestAssured.given;
 

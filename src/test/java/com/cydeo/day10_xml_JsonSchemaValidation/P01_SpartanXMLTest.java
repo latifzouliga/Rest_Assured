@@ -1,4 +1,4 @@
-package com.cydeo.day10_xml;
+package com.cydeo.day10_xml_JsonSchemaValidation;
 
 import com.cydeo.utilities.SpartanAuth_TestBase;
 import io.restassured.http.ContentType;

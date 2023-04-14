@@ -13,5 +13,5 @@ public class Regions {
     private String hasMore;
     private String limit;
     private int count;
-    private Items regions;
+    private List<Items> items;
 }

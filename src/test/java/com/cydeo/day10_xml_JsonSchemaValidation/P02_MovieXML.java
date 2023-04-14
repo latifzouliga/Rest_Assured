@@ -1,4 +1,4 @@
-package com.cydeo.day10_xml;
+package com.cydeo.day10_xml_JsonSchemaValidation;
 
 import io.restassured.http.ContentType;
 import io.restassured.path.xml.XmlPath;

@@ -1,4 +1,4 @@
-package com.cydeo.day10_xml;
+package com.cydeo.day10_xml_JsonSchemaValidation;
 
 import com.cydeo.utilities.Spartan_TestBase;
 import io.restassured.http.ContentType;
@@ -7,7 +7,6 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 import java.io.File;
-import java.util.Arrays;
 
 import static io.restassured.RestAssured.given;
 

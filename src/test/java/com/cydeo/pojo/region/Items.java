@@ -9,9 +9,9 @@ import java.util.List;
 
 @Data
 @JsonIgnoreProperties(
-        ignoreUnknown = true,
-        value = "links",
-        allowGetters = true
+        ignoreUnknown = true
+        //value = "links",
+        //allowGetters = true
 )
 public class Items {
 
@@ -19,6 +19,6 @@ public class Items {
     private int regionId;
     @JsonProperty("region_name")
     private String regionName;
-    private List<Links> links;
+   private List<Links> links;
 
 }
