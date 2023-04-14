@@ -1,11 +1,14 @@
 package com.cydeo.day11_JUnit5_DDT;
 
+import com.cydeo.utilities.ExcelUtil;
 import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.CsvFileSource;
 import org.junit.jupiter.params.provider.MethodSource;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.Map;
 
 public class P06_MethodSourceTest {
 
@@ -19,6 +22,25 @@ public class P06_MethodSourceTest {
         System.out.println(name);
 
     }
+
+
+    @ParameterizedTest
+    @MethodSource("getExelData")
+    public void test2(Map<String, String> userInfo){
+        System.out.println(userInfo);
+        System.out.println("Name = " + userInfo.get("Name"));
+        System.out.println("Role = " + userInfo.get("Role"));
+        System.out.println("Email = " + userInfo.get("Email"));
+        System.out.println("Password = " + userInfo.get("Password"));
+        System.out.println("===================================\n");
+
+    }
+
+    public static List<Map<String,String>> getExelData(){
+        ExcelUtil excelUtil = new ExcelUtil("src/test/resources/Library.xlsx","Library1");
+        return excelUtil.getDataList();
+    }
+
 
 
     public static List<String> getNames(){

@@ -22,7 +22,7 @@ public class P02_JUnit5Assertions {
     @Test
     @DisplayName("JUnit 5 Soft Assertion is implemented")
     void assertAllTest(){
-        assertAll(
+        assertAll( "Learning Soft Assert",
                 ()-> assertEquals(10, 5+5),
                 ()-> assertEquals(3 , 5-2),
                 ()-> assertEquals(10 , 5+4)
