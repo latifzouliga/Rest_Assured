@@ -1,6 +1,6 @@
 package com.cydeo.day03_Parameters_Path;
 
-import com.cydeo.utilities.Hr_TestBase;
+import com.cydeo.utilities.HrTestBase;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
@@ -14,7 +14,7 @@ import java.util.Map;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-public class P02_HrWithParameters extends Hr_TestBase {
+public class P02_HrWithParameters extends HrTestBase {
 
 
     // Given accept type is Json

@@ -1,6 +1,6 @@
 package com.cydeo.day08_Auth;
 
-import com.cydeo.utilities.SpartanAuth_TestBase;
+import com.cydeo.utilities.SpartanAuthTestBase;
 import io.restassured.http.ContentType;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
@@ -8,7 +8,7 @@ import org.junit.jupiter.api.Test;
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.is;
 
-public class P01_SpartanAuthTest extends SpartanAuth_TestBase {
+public class P01_SpartanAuthTest extends SpartanAuthTestBase {
 
     @DisplayName("GET /api/partans as GUEST user --> Except --401")
     @Test

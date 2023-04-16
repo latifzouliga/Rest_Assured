@@ -1,6 +1,6 @@
 package com.cydeo.day04_JsonPath;
 
-import com.cydeo.utilities.Hr_TestBase;
+import com.cydeo.utilities.HrTestBase;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.path.json.JsonPath;
@@ -15,7 +15,7 @@ import static io.restassured.RestAssured.given;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-public class P02_HrWithJasonPath extends Hr_TestBase {
+public class P02_HrWithJasonPath extends HrTestBase {
 
     @DisplayName("GET all /countries")
     @Test

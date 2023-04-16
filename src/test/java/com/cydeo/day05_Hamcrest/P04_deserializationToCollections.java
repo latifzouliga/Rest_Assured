@@ -1,6 +1,6 @@
 package com.cydeo.day05_Hamcrest;
 
-import com.cydeo.utilities.Spartan_TestBase;
+import com.cydeo.utilities.SpartanTestBase;
 import io.restassured.http.ContentType;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
@@ -13,7 +13,7 @@ import java.util.Map;
 
 import static io.restassured.RestAssured.given;
 
-public class P04_deserializationToCollections extends Spartan_TestBase {
+public class P04_deserializationToCollections extends SpartanTestBase {
 
     /**
      * Given accept type is application/json

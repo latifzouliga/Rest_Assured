@@ -1,7 +1,7 @@
 package com.cydeo.day05_Hamcrest;
 
 
-import com.cydeo.utilities.Hr_TestBase;
+import com.cydeo.utilities.HrTestBase;
 import io.restassured.http.ContentType;
 import io.restassured.path.json.JsonPath;
 import org.apache.http.HttpStatus;
@@ -15,7 +15,7 @@ import static io.restassured.RestAssured.*;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.*;
 
-public class P03_hamcrestHR extends Hr_TestBase {
+public class P03_hamcrestHR extends HrTestBase {
 
     /**
      * Given accept type is Json

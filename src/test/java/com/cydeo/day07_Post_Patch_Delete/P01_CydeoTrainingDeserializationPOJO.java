@@ -3,7 +3,7 @@ package com.cydeo.day07_Post_Patch_Delete;
 
 import com.cydeo.pojo.Student;
 import com.cydeo.pojo.Students;
-import com.cydeo.utilities.Cydeo_TestBase;
+import com.cydeo.utilities.CydeoTestBase;
 import io.restassured.http.ContentType;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
@@ -16,7 +16,7 @@ import static org.hamcrest.Matchers.equalTo;
 import static org.hamcrest.Matchers.is;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class P01_CydeoTrainingDeserializationPOJO extends Cydeo_TestBase {
+public class P01_CydeoTrainingDeserializationPOJO extends CydeoTestBase {
 
 
     @DisplayName("GET /student/2")

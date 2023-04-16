@@ -1,6 +1,6 @@
 package com.cydeo.day05_Hamcrest;
 
-import com.cydeo.utilities.Spartan_TestBase;
+import com.cydeo.utilities.SpartanTestBase;
 import io.restassured.filter.log.LogDetail;
 import io.restassured.http.ContentType;
 
@@ -14,7 +14,7 @@ import static io.restassured.RestAssured.*;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.*;
 
-public class P02_HamCrestSpartans extends Spartan_TestBase {
+public class P02_HamCrestSpartans extends SpartanTestBase {
 
     /**
      * Given accept type is Json

@@ -1,8 +1,7 @@
 package com.cydeo.homework;
 
-import com.cydeo.pojo.Spartan;
 import com.cydeo.pojo.region.Items;
-import com.cydeo.utilities.Hr_TestBase;
+import com.cydeo.utilities.HrTestBase;
 import io.restassured.http.ContentType;
 import org.junit.jupiter.api.*;
 
@@ -13,7 +12,7 @@ import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.is;
 
 
-public class homework_5 extends Hr_TestBase {
+public class homework_5 extends HrTestBase {
 
     /**
      * ORDS API DOCUMENT

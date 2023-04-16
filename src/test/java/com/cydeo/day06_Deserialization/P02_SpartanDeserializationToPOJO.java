@@ -2,7 +2,7 @@ package com.cydeo.day06_Deserialization;
 
 import com.cydeo.pojo.SearchSpartan;
 import com.cydeo.pojo.Spartan;
-import com.cydeo.utilities.Spartan_TestBase;
+import com.cydeo.utilities.SpartanTestBase;
 import io.restassured.http.ContentType;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
@@ -14,7 +14,7 @@ import java.util.List;
 
 import static io.restassured.RestAssured.given;
 
-public class P02_SpartanDeserializationToPOJO extends Spartan_TestBase {
+public class P02_SpartanDeserializationToPOJO extends SpartanTestBase {
 
     @DisplayName("GET Single spartan for deserialization to POJO (Spartan class)")
     @Test

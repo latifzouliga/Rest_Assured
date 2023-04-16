@@ -1,7 +1,7 @@
 package com.cydeo.homework;
 
 import com.cydeo.utilities.BookItUtils;
-import com.cydeo.utilities.BookIt_TestBase;
+import com.cydeo.utilities.BookItTestBase;
 import io.restassured.http.ContentType;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
@@ -13,7 +13,7 @@ import java.util.List;
 
 import static io.restassured.RestAssured.given;
 
-public class My_HomeWork_Bookit extends BookIt_TestBase {
+public class My_HomeWork_Bookit extends BookItTestBase {
 
     String accessTokenTeacher = BookItUtils.getToken("blyst6@si.edu", "barbabaslyst");
 

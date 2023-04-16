@@ -1,6 +1,6 @@
 package com.cydeo.day04_JsonPath;
 
-import com.cydeo.utilities.Cydeo_TestBase;
+import com.cydeo.utilities.CydeoTestBase;
 import io.restassured.http.ContentType;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
@@ -14,7 +14,7 @@ import static io.restassured.RestAssured.given;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-public class p03_CydeoTrainingAPITests extends Cydeo_TestBase {
+public class p03_CydeoTrainingAPITests extends CydeoTestBase {
 
 //    Given accept type is application
 //    And path param is 2

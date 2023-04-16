@@ -5,7 +5,7 @@ import com.cydeo.pojo.Link;
 import com.cydeo.pojo.Region;
 import com.cydeo.pojo.region.Items;
 import com.cydeo.pojo.region.Regions;
-import com.cydeo.utilities.Hr_TestBase;
+import com.cydeo.utilities.HrTestBase;
 import io.restassured.http.ContentType;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
@@ -15,13 +15,12 @@ import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.concurrent.locks.LockSupport;
 
 import static io.restassured.RestAssured.*;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.*;
 
-public class P03_HRDeserializationPOJO extends Hr_TestBase {
+public class P03_HRDeserializationPOJO extends HrTestBase {
 
 
     @DisplayName("GET regions with POJO")

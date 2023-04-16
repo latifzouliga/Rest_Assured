@@ -1,7 +1,7 @@
 package com.cydeo.day07_Post_Patch_Delete;
 
 import com.cydeo.pojo.Spartan;
-import com.cydeo.utilities.Spartan_TestBase;
+import com.cydeo.utilities.SpartanTestBase;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import org.junit.jupiter.api.DisplayName;
@@ -15,7 +15,7 @@ import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.is;
 
 
-public class P04_SpartanFlow extends Spartan_TestBase {
+public class P04_SpartanFlow extends SpartanTestBase {
 
   static int id;
 

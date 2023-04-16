@@ -1,6 +1,6 @@
 package com.cydeo.day10_xml_JsonSchemaValidation;
 
-import com.cydeo.utilities.Spartan_TestBase;
+import com.cydeo.utilities.SpartanTestBase;
 import io.restassured.http.ContentType;
 import io.restassured.module.jsv.JsonSchemaValidator;
 import org.junit.jupiter.api.DisplayName;
@@ -10,7 +10,7 @@ import java.io.File;
 
 import static io.restassured.RestAssured.given;
 
-public class P04_JsonSchemaValidation extends Spartan_TestBase {
+public class P04_JsonSchemaValidation extends SpartanTestBase {
 
 
     @DisplayName("GET /api/spartans/{id} to validate with JsonSchemaValidator")

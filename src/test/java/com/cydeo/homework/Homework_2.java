@@ -1,6 +1,6 @@
 package com.cydeo.homework;
 
-import com.cydeo.utilities.Hr_TestBase;
+import com.cydeo.utilities.HrTestBase;
 import io.restassured.http.ContentType;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
@@ -14,7 +14,7 @@ import static io.restassured.RestAssured.given;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-public class Homework_2 extends Hr_TestBase {
+public class Homework_2 extends HrTestBase {
 
     //ORDS API DOCUMENT
     //—> https://documenter.getpostman.com/view/25449093/2s8ZDYYNBz

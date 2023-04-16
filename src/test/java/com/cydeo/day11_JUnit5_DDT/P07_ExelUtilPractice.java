@@ -5,11 +5,11 @@ import org.junit.jupiter.api.Test;
 
 import java.util.Map;
 
-public class P07_ExelUtilPractice {
+class P07_ExelUtilPractice {
 
 
     @Test
-    public void test1(){
+    void test1(){
 
         ExcelUtil excelUtil = new ExcelUtil("src/test/resources/Library.xlsx","Library1");
 

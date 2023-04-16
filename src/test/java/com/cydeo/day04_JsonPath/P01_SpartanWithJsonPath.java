@@ -1,6 +1,6 @@
 package com.cydeo.day04_JsonPath;
 
-import com.cydeo.utilities.Spartan_TestBase;
+import com.cydeo.utilities.SpartanTestBase;
 import io.restassured.http.ContentType;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
@@ -11,7 +11,7 @@ import static io.restassured.RestAssured.given;
 import static org.apache.commons.lang3.function.Failable.accept;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class P01_SpartanWithJsonPath extends Spartan_TestBase {
+public class P01_SpartanWithJsonPath extends SpartanTestBase {
 
     @DisplayName("GET Spartan with Response Path")
     @Test

@@ -1,6 +1,6 @@
 package com.cydeo.day03_Parameters_Path;
 
-import com.cydeo.utilities.Hr_TestBase;
+import com.cydeo.utilities.HrTestBase;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
@@ -10,7 +10,7 @@ import org.junit.jupiter.api.Test;
 
 import java.util.List;
 
-public class P04_HrWithResponsePath extends Hr_TestBase {
+public class P04_HrWithResponsePath extends HrTestBase {
 
 
     @DisplayName("GET Request to countries with using Response Path")

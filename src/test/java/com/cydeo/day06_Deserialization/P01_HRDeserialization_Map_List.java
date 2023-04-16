@@ -1,6 +1,6 @@
 package com.cydeo.day06_Deserialization;
 
-import com.cydeo.utilities.Hr_TestBase;
+import com.cydeo.utilities.HrTestBase;
 import io.restassured.http.ContentType;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
@@ -13,7 +13,7 @@ import java.util.Map;
 
 import static io.restassured.RestAssured.given;
 
-public class P01_HRDeserialization_Map_List extends Hr_TestBase {
+public class P01_HRDeserialization_Map_List extends HrTestBase {
     /**
      * Create a test called getLocation
      * 1. Send request to GET /locations

@@ -1,7 +1,7 @@
 package com.cydeo.day07_Post_Patch_Delete;
 
 import com.cydeo.pojo.Spartan;
-import com.cydeo.utilities.Spartan_TestBase;
+import com.cydeo.utilities.SpartanTestBase;
 import io.restassured.http.ContentType;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
@@ -16,7 +16,7 @@ import static io.restassured.RestAssured.given;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.*;
 
-public class P02_SpartanPost extends Spartan_TestBase {
+public class P02_SpartanPost extends SpartanTestBase {
 
     /**
      * Given accept type is JSON

@@ -1,6 +1,6 @@
 package com.cydeo.day10_xml_JsonSchemaValidation;
 
-import com.cydeo.utilities.SpartanAuth_TestBase;
+import com.cydeo.utilities.SpartanAuthTestBase;
 import io.restassured.http.ContentType;
 import io.restassured.path.xml.XmlPath;
 import io.restassured.response.Response;
@@ -12,7 +12,7 @@ import java.util.List;
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.is;
 
-public class P01_SpartanXMLTest extends SpartanAuth_TestBase {
+public class P01_SpartanXMLTest extends SpartanAuthTestBase {
 
     /**
      * Given accept type is application/xml

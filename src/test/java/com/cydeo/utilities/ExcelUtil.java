@@ -11,9 +11,9 @@ import java.util.Map;
 
 public class ExcelUtil {
 
-        private Sheet workSheet;
-        private Workbook workBook;
-        private String path;
+        private final Sheet workSheet;
+        private final Workbook workBook;
+        private final String path;
 
         public ExcelUtil(String path, String sheetName) {
             this.path = path;
@@ -23,8 +23,8 @@ public class ExcelUtil {
                 // Access the required test data sheet
                 workBook = WorkbookFactory.create(ExcelFile);
                 workSheet = workBook.getSheet(sheetName);
-                // check if sheet is null or not. null means  sheetname was wrong
-                //Assert.assertNotNull(workSheet, "Sheet: \""+sheetName+"\" does not exist\n");
+                // check if sheet is null or not. null means  sheet-name was wrong
+                // Assert.assertNotNull(workSheet, "Sheet: \""+sheetName+"\" does not exist\n");
 
             } catch (Exception e) {
                 throw new RuntimeException(e);
@@ -35,8 +35,7 @@ public class ExcelUtil {
             Cell cell;
             try {
                 cell = workSheet.getRow(rowNum).getCell(colNum);
-                String cellData = cell.toString();
-                return cellData;
+                return cell.toString();
             } catch (Exception e) {
                 throw new RuntimeException(e);
             }

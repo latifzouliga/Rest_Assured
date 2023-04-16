@@ -1,7 +1,7 @@
 package com.cydeo.day07_Post_Patch_Delete;
 
 import com.cydeo.pojo.Spartan;
-import com.cydeo.utilities.Spartan_TestBase;
+import com.cydeo.utilities.SpartanTestBase;
 import io.restassured.http.ContentType;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
@@ -15,7 +15,7 @@ import java.util.TreeMap;
 
 import static io.restassured.RestAssured.given;
 
-public class P02 extends Spartan_TestBase {
+public class P02 extends SpartanTestBase {
 
 
 

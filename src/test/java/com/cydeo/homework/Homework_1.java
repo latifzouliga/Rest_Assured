@@ -1,6 +1,6 @@
 package com.cydeo.homework;
 
-import com.cydeo.utilities.Hr_TestBase;
+import com.cydeo.utilities.HrTestBase;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import org.apache.http.HttpStatus;
@@ -10,7 +10,7 @@ import org.junit.jupiter.api.Test;
 import static io.restassured.RestAssured.given;
 import static org.junit.jupiter.api.Assertions.*;
 
-public class Homework_1 extends Hr_TestBase {
+public class Homework_1 extends HrTestBase {
 
     @DisplayName("GET- /countries/US")
     @Test

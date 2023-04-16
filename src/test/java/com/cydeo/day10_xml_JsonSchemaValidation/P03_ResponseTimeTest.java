@@ -1,6 +1,6 @@
 package com.cydeo.day10_xml_JsonSchemaValidation;
 
-import com.cydeo.utilities.SpartanAuth_TestBase;
+import com.cydeo.utilities.SpartanAuthTestBase;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import org.junit.jupiter.api.Test;
@@ -10,7 +10,7 @@ import java.util.concurrent.TimeUnit;
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.*;
 
-public class P03_ResponseTimeTest extends SpartanAuth_TestBase {
+public class P03_ResponseTimeTest extends SpartanAuthTestBase {
 
 
     @Test

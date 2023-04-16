@@ -1,6 +1,6 @@
 package com.cydeo.day03_Parameters_Path;
 
-import com.cydeo.utilities.Spartan_TestBase;
+import com.cydeo.utilities.SpartanTestBase;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
@@ -12,7 +12,7 @@ import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class P03_SpartanWithResponsePath extends Spartan_TestBase {
+public class P03_SpartanWithResponsePath extends SpartanTestBase {
 
 
     // Given accept type is json
